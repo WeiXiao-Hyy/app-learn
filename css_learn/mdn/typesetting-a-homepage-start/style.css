@@ -1,0 +1,134 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* header and footer */
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+header {
+  font-family: sans-serif;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+section h2 + p {
+  text-indent: 20px;
+}
+
+a {
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #a66;
+}
+
+a:visited {
+  color: #a66;
+}
+
+a:focus {
+  color: #a66;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  color: #a66;
+  text-decoration: none;
+}
+
+a:active {
+  background-color: antiquewhite;
+  color: #a00;
+}
+
+/* ||设置section下紧挨着h2的p元素里面的a的样式 */
+section h2 + p a {
+  padding: 2px 16px 0 1px;
+  background: url() 100% 0 no-repeat;
+}
+
+/* ||去掉默认的黑点 */
+ul {
+  list-style-type: none;
+}
+
+/* ||设置nav中a的样式 */
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  width: 20rem;
+  height: 8rem;
+  border: 1px solid #a66;
+  margin: 2rem 0;
+  text-align: center;
+  line-height: 8rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
