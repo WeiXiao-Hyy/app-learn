@@ -7,7 +7,7 @@
 
 ### CSS
 
--[tailwindcss](https://tailwindcss.com/)
+- [tailwindcss](https://tailwindcss.com/)
 
 ### Form
 - [react-hook-form](https://legacy.react-hook-form.com/zh/get-started/)
