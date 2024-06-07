@@ -13,4 +13,9 @@
 - [react-hook-form](https://legacy.react-hook-form.com/zh/get-started/)
 
 
+### Git
+
+```shell
+git rebase -i HEAD~N
+```
 
